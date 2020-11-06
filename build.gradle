@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'application'
+}
+
+group 'org.com.ite.fc'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "15"
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    implementation 'com.jfoenix:jfoenix:9.0.8'
+    implementation group: 'net.java.dev.jna', name: 'jna-platform', version: '5.5.0'
+   // compileJava.options.encoding = 'UTF-8'
+}
+
+
+
+mainClassName = 'Start'

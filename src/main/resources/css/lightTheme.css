@@ -1,0 +1,159 @@
+#root{
+-fx-background-color:#192d36;
+}
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:even .text{
+-fx-fill:white;
+}
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:odd .text{
+-fx-fill:white;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:empty:even{
+-fx-background-color:transparent;
+}
+.list-view .virtual-flow .clipped-container .sheet .list-cell:empty:odd{
+-fx-background-color:transparent;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:even{
+-fx-background-color:transparent;
+}
+.list-view .virtual-flow .clipped-container .sheet .list-cell:selected:even{
+-fx-background-color:rgba(204,255,255,0.4);
+}
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:hover:even{
+-fx-background-color:rgba(204,255,255,0.06);
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:odd{
+-fx-background-color:transparent;
+}
+.list-view .virtual-flow .clipped-container .sheet .list-cell:selected:odd{
+-fx-background-color:rgba(204,255,255,0.4);
+}
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:hover:odd{
+-fx-background-color:rgba(204,255,255,0.06);
+}
+
+
+.list-view .scroll-bar:horizontal {
+-fx-background-color: transparent;
+-fx-border-color:transparent;
+}
+.list-view .scroll-bar:vertical{
+-fx-background-color: transparent;
+-fx-border-color:transparent;
+}
+.list-view .scroll-bar:horizontal .thumb{
+-fx-background-color: #4E514C;
+-fx-border-color:transparent;
+-fx-background-insets: 1,0,0,5;
+
+}
+.list-view .scroll-bar:vertical .thumb {
+-fx-background-color: #4E514C;
+-fx-border-color:transparent;
+-fx-background-insets: 1,0,0,5;
+}
+
+.list-view.scroll-bar:vertical .track{
+-fx-background-color:transparent;
+-fx-border-color:transparent;
+}
+.list-view .scroll-bar:horizontal .track{
+-fx-background-color:transparent;
+-fx-border-color:transparent;
+
+}
+
+.tree-cell:empty{
+-fx-background-color: rgba(1, 1, 1, 0.0);
+-fx-text-fill: white;
+}
+
+.tree-cell:filled{
+-fx-background-color: rgba(1, 1, 1, 0.0);
+-fx-text-fill: white;
+}
+
+.tree-cell:selected{
+-fx-background-color: #304350;
+-fx-text-fill: white;
+}
+
+.tree-cell:hover:filled  {
+-fx-background-color: #354E55;
+}
+
+.tree-cell > .tree-disclosure-node > .arrow{
+-fx-shape:"M 0 0 L 100 100 L 0 200 L 0 150 L 50 100 L 0 50 Z";
+}
+.tree-cell:expanded > .tree-disclosure-node > .arrow{
+-fx-background-color: black;
+-fx-rotate:90;
+}
+.tree-cell:collapsed > .tree-disclosure-node > .arrow{
+-fx-rotate:0;
+-fx-background-color:gray;
+}
+
+.tree-cell > .tree-disclosure-node{
+-fx-background-color:transparent;
+-fx-opacity: 1.0;
+}
+
+.tree-view .scroll-bar:horizontal {
+-fx-background-color: transparent;
+-fx-border-color:transparent;
+}
+
+.tree-view .scroll-bar:vertical{
+-fx-background-color: transparent;
+-fx-border-color:transparent;
+}
+.tree-view .scroll-bar:horizontal .thumb{
+-fx-background-color: #4E514C;
+-fx-border-color:transparent;
+-fx-background-insets: 1,0,0,5;
+
+}
+.tree-view .scroll-bar:vertical .thumb {
+-fx-background-color: #4E514C;
+-fx-border-color:transparent;
+-fx-background-insets: 1,0,0,5;
+}
+
+.tree-view.scroll-bar:vertical .track{
+-fx-background-color:transparent;
+-fx-border-color:transparent;
+}
+.tree-view .scroll-bar:horizontal .track{
+-fx-background-color:transparent;
+-fx-border-color:transparent;
+
+}
+.corner{
+-fx-background-color:transparent;
+-fx-border-color:transparent;
+}
+
+#tree{
+-fx-background-color: transparent;
+-fx-border-color:#2c505e;
+-fx-border-width:2px;
+}
+#list{
+-fx-background-color: #192d36;
+ -fx-border-width: 2px;
+ -fx-border-color: #2c505e;
+ }
+
+.jfx-text-field
+{
+    -fx-text-inner-color: #4d4d4d;
+}
+
+.jfx-text-field:focused
+{
+    -fx-text-inner-color: #0f9d58;
+}
